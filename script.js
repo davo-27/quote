@@ -34,9 +34,5 @@ tweetBtn.addEventListener("click", ()=>{
     window.open(tweetUrl, "_blank")
 })
 
-facebookBtn.addEventListener("click", ()=>{
-    let facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${quoteText.innerText}`
-    window.open(facebookUrl, "_blank")
-})
 
 quoteBtn.addEventListener('click', randomQuote)
